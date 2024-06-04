@@ -1,0 +1,40 @@
+.mypageMain {
+    text-align: center;
+    margin-top: 80px;
+  }
+
+.mypageMain h2{
+    font-size: 40px;
+}
+.buttonBox { 
+    text-align: center;
+    margin-top: 100px;
+    font-size: 45px;
+  }
+  
+  .buttonContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .buttonContainer button {
+    width: 300px; 
+    height: 60px; 
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 0px;
+    border: 3px solid #434343;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .buttonContainer button:hover {
+    background-color: #ff5757;
+    color: white;
+    border-color: #ffffff;
+  }

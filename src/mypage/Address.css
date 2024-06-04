@@ -1,0 +1,79 @@
+
+.addressContainer {
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px
+  }
+  
+  .addressContainer h2{
+    font-size: 40px;
+  }
+  
+  .addressForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .addressForm input {
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .addressForm button {
+    padding: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff5757;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .addressForm button:hover {
+    background-color: #d75151;
+    color: #ffffff;
+  }
+  
+  .addressList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .addressItem {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #ffffff;
+  }
+  
+  .addressItem p {
+    margin: 5px 0;
+  }
+  
+  .addressItem button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ff5757;
+    color: white;
+  }
+  
+  .addressItem button:hover {
+    background-color: #d75151;
+  }
+  

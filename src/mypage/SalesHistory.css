@@ -1,0 +1,72 @@
+.sales {
+  padding: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.sales h2 {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 40px;
+  color: #000000;
+}
+
+.sales table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-left: 30px;
+  
+}
+
+.sales th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  
+}
+
+
+
+
+.salesPproductInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.salesProductImage {
+  width: 100px;
+  height: auto;
+}
+
+.salesProductName {
+  margin-top: 10px; /* 이미지 아래에 간격 추가 */
+}
+
+
+.sales td:nth-child(1) {
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;;
+}
+
+.sales td:nth-child(2) {
+  border-right: 1px solid #ddd;
+}
+
+.sales td:nth-child(3) {
+  border-right: 1px solid #ddd;
+}
+
+
+/* 너비 조정 */
+.sales th:nth-child(1), td:nth-child(1) {
+  width: 15%;
+}
+
+.sales th:nth-child(2), td:nth-child(2) {
+  width: 60%;
+}
+
+.sales th:nth-child(3), td:nth-child(3) {
+  width: 20%;
+}

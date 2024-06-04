@@ -1,0 +1,68 @@
+.like {
+    padding: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.like h2 {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 40px;
+    color: #000000;
+}
+
+.like table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: 30px;
+}
+
+.like th, .like td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    
+}
+
+
+
+.likeProductInfo {
+    display: flex;
+    align-items: center;
+    align-items: center;
+}
+
+.likeProductImage {
+    width: 100px;
+    height: auto;
+    
+}
+
+.likeProductName {
+    margin: 10px;
+}
+
+.like td:nth-child(1) {
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;;
+}
+
+.like td:nth-child(2) {
+    border-right: 1px solid #ddd;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #ff5757;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e53935;
+}
+
+

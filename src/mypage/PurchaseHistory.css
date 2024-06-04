@@ -1,0 +1,72 @@
+.purchase {
+  padding: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+  
+}
+
+.purchase h2 {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 40px;
+  color: #000000;
+}
+
+.purchase table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-left: 30px;
+}
+
+.purchase th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.purchase td {
+  border-right: 1px solid #ddd; 
+}
+
+
+.purchaseProductInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.purchaseProductImage {
+  width: 100px;
+  height: auto;
+}
+
+.purchaseProductName {
+  margin-top: 10px; /* 이미지 아래에 간격 추가 */
+}
+
+
+.purchase td:nth-child(1) {
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;;
+}
+
+.purchase td:nth-child(2) {
+  border-right: 1px solid #ddd;
+}
+
+.purchase td:nth-child(3) {
+  border-right: 1px solid #ddd;
+}
+
+/* 너비 조정 */
+.purchase th:nth-child(1), td:nth-child(1) {
+  width: 15%;
+}
+
+.purchase th:nth-child(2), td:nth-child(2) {
+  width: 60%;
+}
+
+.purchase th:nth-child(3), td:nth-child(3) {
+  width: 25%;
+}
